@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Optional Google Font -->
+</head>
+<body>
+    <header class="fade-in">
+        <nav>
+            <div class="logo">MyPortfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="pulse">Theme</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero slide-in-middle">
+        <div class="hero-content">
+          <h1 >Hello, I'm Palak Soni</h1>
+            <p>Web Developer | Designer | Creative Thinker</p>
+            <a href="#projects" class="btn hover-scale">View My Work</a>
+            <img src="pr.png" alt="Your Photo" class="hero-img fade-in-delay">
+        </div>
+    </section>
+
+    <section id="about" class="fade-in" style="align-items: center; background-color:cornflowerblue;">
+        <h2>About Me</h2>
+        <p>I’m Palak Soni, a Computer Science & Engineering student with a deep interest in cybersecurity and full stack development.
+            I'm a passionate developer in frontend technologies. I love creating user-friendly websites and solving complex problems. 
+            I love exploring how things work behind the scenes and turning ideas into clean, functional, and visually appealing projects.
+             Whether I’m learning a new concept, building something from scratch, or solving a technical challenge, I’m always driven by curiosity and growth.
+              My goal is to keep improving, create meaningful digital solutions, and build a strong foundation for a successful career in tech.
+        </p>
+        <div class="about-grid">
+            <div class="about-item slide-in-right">
+                <h3>Background</h3>
+                <p>Started coding in college, now specializing in React and Node.js.</p>
+            </div>
+            <div class="about-item slide-in-right-delay">
+                <h3>Interests</h3>
+                <p>I enjoy exploring new concepts in Tech field, experimenting with website designs, solving tech puzzles, learning new tools, 
+                    and understanding how systems work behind the scenes. 
+                    I also love building small projects and improving myself through daily learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in" style="align-items: center; background-color: skyblue;">
+        <h2 >My Projects</h2>
+        <div class="projects-grid">
+            <div class="project hover-scale">
+                <img src="images (4).jpg" alt="Project 1">
+                <h3>E-Commerce Site</h3>
+                <p>Built with React and Stripe for payments. Features responsive design and cart functionality.</p>
+                <a href="#" class="btn">Live Demo</a> <a href="#" class="btn">GitHub</a>
+            </div>
+            <div class="project hover-scale">
+                <img src="images (5).jpg" alt="Project 2">
+                <h3>Portfolio App</h3>
+                <p>A dynamic portfolio using Vue.js with animations and API integration.</p>
+                <a href="#" class="btn">Live Demo</a> <a href="#" class="btn">GitHub</a>
+            </div>
+            <div class="project hover-scale">
+                <img src="download (2).jpg" alt="Project 3">
+                <h3>Weather Dashboard</h3>
+                <p>JavaScript app fetching data from OpenWeather API, with charts and geolocation.</p>
+                <a href="#" class="btn">Live Demo</a> <a href="#" class="btn">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in" style="align-items: center; background-color:cornflowerblue;">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-bar slide-in-up">
+                <span>HTML/CSS</span>
+                <div class="bar"><div class="fill" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-bar slide-in-up-delay">
+                <span>JavaScript</span>
+                <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-bar slide-in-up-delay2">
+                <span>React</span>
+                <div class="bar"><div class="fill" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-bar slide-in-up-delay3">
+                <span>Node.js</span>
+                <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in"  style="align-items: center; background-color: skyblue;">
+        <h2>Contact Me</h2>
+        <form id="contact-form"    className="w-full border p-2 rounded" required>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="btn pulse">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="#" class="hover-scale">LinkedIn</a>
+            <a href="#" class="hover-scale">GitHub</a>
+            <a href="#" class="hover-scale">Twitter</a>
+        </div>
+    </section>
+
+    <footer class="fade-in" style="background-color:darkblue;">
+        <p  style="color: black;">&copy; 2025 Palak Soni. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
